@@ -79,10 +79,10 @@ since I believe that's all Pillow (Thus, ImageHash library) supported.
 
 The default image extensions are case-sensetive, BUT Windows is **NOT**!
 
-You need to manually adjust the extension part, delete all **UPPERCASE** extensions ones.
-(It's at the end of the imagehash_v2.py file)
+You need to manually change the extension part, delete all **UPPERCASE** extensions.
+(It's at the end of imagehash_v2.py file)
 
 ### hnswlib related:
-As pointed out in the previous part, you could (maybe should) adjust some default settings (`ef_construction` and `M`) using the arugments.
+As pointed out in the previous part, you could (should) adjust some default settings (`ef_construction` and `M`) using the arugments.
 
 Please refer to the HNSW algorithm parameters page for their explanations: https://github.com/nmslib/hnswlib/blob/master/ALGO_PARAMS.md
